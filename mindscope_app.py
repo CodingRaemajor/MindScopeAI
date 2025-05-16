@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 from pymongo import MongoClient
 
 # Load embedding model
-model = SentenceTransformer("all-mpnet-base-v2")
+model = SentenceTransformer("all-mpnet-base-v2", device = "cpu")
 
 # MongoDB Atlas connection
 connection_string = "mongodb+srv://iparth2166:dPhjugMr8WdfV8XK@cluster0.cglmv0e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
