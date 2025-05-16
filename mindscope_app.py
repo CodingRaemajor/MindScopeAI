@@ -45,4 +45,4 @@ if query:
 
     st.markdown("## 🔎 Top Matching Posts:")
     for i, doc in enumerate(results, 1):
-        st.markdown(f"**{i}. ({doc['score']:.4f})** {doc['text']}")
+        st.markdown(f"{i}. ({doc['score']:.4f}) {doc['text']}")
