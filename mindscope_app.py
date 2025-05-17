@@ -36,5 +36,5 @@ if user_input:
     st.markdown("### 🔍 Top Matching Posts:")
     for i, doc in enumerate(results, 1):
         score = float(doc.get('score', 0))
-        text = doc.get('text', '')
+        text = doc.get('body', '') # Fixed here 
         st.markdown(f"{i}. ({score:.4f}) {text}")
