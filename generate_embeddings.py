@@ -19,6 +19,8 @@ embeddings = model.encode(
 # Store embeddings
 df['embedding'] = [e.tolist() for e in embeddings]
 
+df.rename(columns={"body": "text"}, inplace=True)
+
 # Save to file for MongoDB
 df.to_json("embedded_mental_health_posts.json", orient="records", lines=True)
 
