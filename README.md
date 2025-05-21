@@ -21,7 +21,7 @@
 
 ## 🚀 Demo
 
-> 📍**Live App**: [Streamlit Deployment](https://your-streamlit-url-here)
+> 📍**Live App**: [Streamlit Deployment](https://mindscopeai.streamlit.app/)
 
 Enter a concern like:
 ```text
