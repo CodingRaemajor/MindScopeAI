@@ -82,6 +82,9 @@ Built with ❤️ by Parth Patel
 If you like the project, consider ⭐️ starring it on GitHub!
 
 
+📄 License
+This project is licensed under the terms of the MIT License.
+
 ---
 
 Let me know if you'd like a **light or dark theme preview**, or want me to include your **Streamlit URL**. Ready to push this to your repo?
