@@ -1,0 +1,4 @@
+embedded_mental_health_posts.json
+__pycache__/
+*.pyc
+.env
